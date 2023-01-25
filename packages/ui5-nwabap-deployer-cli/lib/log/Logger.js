@@ -23,7 +23,7 @@ class Logger {
     }
 
     log(message) {
-        this.logger.info(message);
+        this.logger.verbose(message);
     }
 
     error(message) {
